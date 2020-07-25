@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import SideBar from './assets/components/SideBar'
-import Content from './assets/components/Content'
+import SideBar from './components/SideBar'
+import Content from './components/Content'
 
 class App extends React.Component {
   render() {
