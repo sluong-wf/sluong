@@ -28,8 +28,21 @@ class Content extends React.Component {
 
     render() {
         return (
-            <div style={{marginLeft:250}}>
-                <p>Content</p>
+            <div className="content">
+                <div className="about-section">
+                    <h1>Shayla Luong</h1>
+                    <p>Software Engineer</p>
+                    <button className="resume-modal">View Resume</button>
+                </div>
+
+                <div className="education-section">
+                </div>
+
+                <div className="experience-section">
+                </div>
+
+                <div className="projects-section">
+                </div>
             </div>
         );
     }
