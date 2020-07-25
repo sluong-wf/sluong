@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import { FaFileAlt } from 'react-icons/fa';
 
 import Hero from './Hero'
 
@@ -38,7 +39,12 @@ class Content extends React.Component {
             <div className="content">
                 <div className="about-section">
                     <Hero name={this.state.profile.name} title={this.state.profile.title} info={this.state.profile.info}/>
-                    <button className="resume-modal">View Resume</button>
+                    <div className="modal-container">
+                        <button className="resume-modal" data-toggle="modal" data-target="#myModal">
+                            <FaFileAlt/> View Resume
+                        </button>
+                    </div>
+                    
                 </div>
 
                 <div className="education-section">

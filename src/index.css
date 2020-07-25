@@ -57,11 +57,11 @@ code {
 }
 
 .email-container {
-  background-color: #0c709ea6;
   padding: 3px;
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 5px;
+  border: solid 1px #0c709e;
 }
 
 .social_contacts {
@@ -107,8 +107,20 @@ code {
 
 .about-section {
   background: rgb(248, 248, 248);
+  padding-bottom: 50px;
+}
+
+.modal-container {
+  padding-left: 4rem;
 }
 
 .resume-modal {
-  background-color: rgb(22, 73, 121)
+  background-color: #1f86b6;
+  border: none;
+  color: white;
+  padding: 5px 20px 7px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5px;
 }
