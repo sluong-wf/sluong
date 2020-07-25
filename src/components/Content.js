@@ -1,6 +1,6 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { FaFileAlt } from 'react-icons/fa';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaFileAlt, FaDownload } from 'react-icons/fa';
 
 import Hero from './Hero'
 
@@ -37,23 +37,43 @@ class Content extends React.Component {
     render() {
         return (
             <div className="content">
-                <div className="about-section">
+                <div className="about-section content-section-container">
                     <Hero name={this.state.profile.name} title={this.state.profile.title} info={this.state.profile.info}/>
-                    <div className="modal-container">
-                        <button className="resume-modal" data-toggle="modal" data-target="#myModal">
-                            <FaFileAlt/> View Resume
+                    <div>
+                        <button className="button" data-toggle="modal" data-target="#myModal">
+                            <FaFileAlt className="icon-size-adjust"/> View Resume
                         </button>
+                        <span style={{margin: 5}}></span>
+                        <a href="../assets/sluong-resume.pdf" download="resume.pdf">
+                            <button className="button dark-gray">
+                                <FaDownload className="icon-size-adjust"/> Download
+                            </button>
+                        </a>
                     </div>
-                    
                 </div>
 
-                <div className="education-section">
+                <div className="skills-section content-section-container">
+                    <h2 className="section-title font-weight-bold">Skills Overview</h2>
                 </div>
 
-                <div className="experience-section">
+                <div className="education-section content-section-container">
+                    <h2 className="section-title font-weight-bold">Education</h2>
+                    <Container>
+                        <Row>
+                            <Col>
+                                <h4 className="pt-2">University of California, Irvine</h4>
+                                <p>B.S in Computer Science and Engineering</p>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
 
-                <div className="projects-section">
+                <div className="experience-section content-section-container">
+                    <h2 className="section-title font-weight-bold">Experience</h2>
+                </div>
+
+                <div className="projects-section content-section-container">
+                    <h2 className="section-title font-weight-bold">Projects</h2>
                 </div>
             </div>
         );

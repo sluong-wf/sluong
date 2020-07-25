@@ -17,7 +17,7 @@ class SideBar extends React.Component {
                     <h2>SHAYLA LUONG</h2>
 
                     <div className="email-container">
-                        <span className="pr-2"><FaEnvelope /></span>
+                        <span className="pr-2"><FaEnvelope className="icon-size-adjust"/></span>
                         <a className="e-mail" href="mailto:luongnh1@uci.edu">luongnh1@uci.edu</a>
                     </div>
                 </div>
