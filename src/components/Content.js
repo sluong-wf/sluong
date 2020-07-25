@@ -1,12 +1,19 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 
+import Hero from './Hero'
+
 // right side column containing all sections
 class Content extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
+            profile: {
+                name: 'Shayla Luong',
+                title: 'Software Developer',
+                info: 'something something'
+            },
             experience: [
                 {
                     id: 0,
@@ -30,8 +37,7 @@ class Content extends React.Component {
         return (
             <div className="content">
                 <div className="about-section">
-                    <h1>Shayla Luong</h1>
-                    <p>Software Engineer</p>
+                    <Hero name={this.state.profile.name} title={this.state.profile.title} info={this.state.profile.info}/>
                     <button className="resume-modal">View Resume</button>
                 </div>
 

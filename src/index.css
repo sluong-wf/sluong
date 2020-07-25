@@ -19,12 +19,13 @@ code {
 .sidebar {
   padding:10px;
   height:100%;
-  width:200px;
+  width:18rem;
   background: #1f86b6;
   position:fixed!important;
   z-index:1;
   overflow:auto;
   font-family: 'Oswald', sans-serif;
+  font-size: x-large;
   color: #fff;
 }
 
@@ -45,7 +46,7 @@ code {
 
 .footer-section {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   border-top: solid 1px #0d77a8;
 }
 
@@ -77,12 +78,7 @@ code {
 
 .social-icon {
   color: white;
-  padding: 5px;
-}
-
-
-.resume-modal {
-  background-color: rgb(22, 73, 121)
+  padding: 0.5rem;
 }
 
 .nav-section {
@@ -93,9 +89,10 @@ code {
 .nav-item {
   color: #000;
   margin: auto;
-  width: 80%;
+  width: 75%;
   left: 25px;
   font-weight: 300;
+  padding-bottom: 5px;
 }
 
 .nav-link {
@@ -105,10 +102,13 @@ code {
 .content {
   height:100%;
   background: rgb(255, 255, 255);
-  margin-left:200px;
+  margin-left:18rem;
 }
 
 .about-section {
   background: rgb(248, 248, 248);
-  padding: 30px;
+}
+
+.resume-modal {
+  background-color: rgb(22, 73, 121)
 }
