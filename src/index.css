@@ -89,13 +89,17 @@ code {
   padding: 0.5rem;
 }
 
+.social-icon:hover {
+  color: var(--main-darker);
+}
+
 .nav-section {
   margin-top: 20px;
   border-top: solid 0px var(--main-darker);
 }
 
 .nav-item {
-  color: #000;
+  color: white;
   margin: auto;
   width: 75%;
   left: 25px;
@@ -105,6 +109,13 @@ code {
 
 .nav-link {
   color: #fff;
+  margin: 0.2rem 0;
+  padding: 0;
+}
+
+.nav-link:hover {
+  border-left: solid 4px white;
+  color: var(--main-darker);
 }
 
 .content {
@@ -162,4 +173,14 @@ code {
 
 .section-title {
   font-size: 2rem;
+}
+
+.details {
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.list {
+  color: var(--dark-gray);
+  font-weight: normal;
 }

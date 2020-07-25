@@ -58,11 +58,24 @@ class Content extends React.Component {
 
                 <div className="education-section content-section-container">
                     <h2 className="section-title font-weight-bold">Education</h2>
-                    <Container>
+                    <Container fluid={true}>
                         <Row>
                             <Col>
-                                <h4 className="pt-2">University of California, Irvine</h4>
-                                <p>B.S in Computer Science and Engineering</p>
+                                <h4 className="pt-2" color="blue">University of California, Irvine</h4>
+                                <b>B.S in Computer Science and Engineering</b>
+                                <div className="details">
+                                    <b>GPA: 😀</b> <br/>
+                                    <b>Relevant Courses:</b>
+                                    <ul className="list">
+                                        <li>Artificial Intelligence</li>
+                                        <li>Computer Vision</li>
+                                        <li>Machine Learning</li>
+                                        <li>Databases</li>
+                                    </ul>
+                                </div>
+                                
+                                <h4 className="pt-2" color="blue">Tohoku Univeristy, Japan</h4>
+                                <b>UC Education Abroad Program</b>
                             </Col>
                         </Row>
                     </Container>

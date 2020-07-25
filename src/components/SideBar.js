@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Container from 'react-bootstrap/Container';
 
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 
 import profile_pic from "../assets/images/profile_pic.png";
 import { Tooltip } from 'react-bootstrap';
+
+const [activeSection, setActiveSection] = useState();
 
 // left column of Home page, containing basic Profile, Navigation, and Contacts
 class SideBar extends React.Component {
@@ -24,13 +26,13 @@ class SideBar extends React.Component {
 
                 <ul className="nav nav-section">
                     <li className="nav-item">
-                        <a className="nav-link" href="#">ABOUT ME</a></li>
+                        <a className="nav-link px-3 py-1" href="#">ABOUT ME</a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#education">EDUCATION</a></li>
+                        <a className="nav-link px-3 py-1" href="#education">EDUCATION</a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#experience">EXPERIENCE</a></li>
+                        <a className="nav-link px-3 py-1" href="#experience">EXPERIENCE</a></li>
                     <li className="nav-item">
-                        <a className="nav-link" href="Projects">PROJECTS</a></li>
+                        <a className="nav-link px-3 py-1" href="Projects">PROJECTS</a></li>
                 </ul>
 
 
