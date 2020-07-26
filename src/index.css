@@ -175,12 +175,23 @@ code {
   font-size: 2rem;
 }
 
-.details {
-  padding-left: 1rem;
+.school-logo {
+  width: 5rem;
+  height: auto;
+  margin-bottom: auto;
+}
+
+.education-item-main {
+  max-width: 22rem !important;
+}
+
+.education-item-details {
   font-weight: lighter;
 }
 
-.list {
+.course-list {
+  max-width: 12rem !important;
   color: var(--dark-gray);
   font-weight: normal;
+  padding: 0 !important;
 }

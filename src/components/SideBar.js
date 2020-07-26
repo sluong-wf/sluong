@@ -6,8 +6,6 @@ import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
 import profile_pic from "../assets/images/profile_pic.png";
 import { Tooltip } from 'react-bootstrap';
 
-const [activeSection, setActiveSection] = useState();
-
 // left column of Home page, containing basic Profile, Navigation, and Contacts
 class SideBar extends React.Component {
     render() {
