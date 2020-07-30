@@ -3,6 +3,8 @@ import { FaFileAlt, FaDownload } from 'react-icons/fa';
 
 import Hero from './Hero'
 import Education from './Education'
+import Experience from './Experience';
+import Projects from './Projects';
 
 // right side column containing all sections
 class Content extends React.Component {
@@ -58,14 +60,8 @@ class Content extends React.Component {
                 </div>
 
                 <Education />
-
-                <div className="experience-section content-section-container">
-                    <h2 className="section-title font-weight-bold">Experience</h2>
-                </div>
-
-                <div className="projects-section content-section-container">
-                    <h2 className="section-title font-weight-bold">Projects</h2>
-                </div>
+                <Experience />
+                <Projects />
             </div>
         );
     }
