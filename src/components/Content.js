@@ -9,6 +9,9 @@ class Content extends React.Component {
 
     constructor(props) {
         super(props);
+        this.education = React.createRef();
+        this.scrolling = this.scrolling.bind(this);
+
         this.state = {
             profile: {
                 name: 'Shayla Luong',
@@ -33,6 +36,14 @@ class Content extends React.Component {
             ]
         }
     }
+    
+    scrolling(instance) {
+		let node = document.getElementById(instance.current.props.id);
+		window.scrollTo({
+			top: node.offsetTop,
+			behavior: "smooth"
+		});
+    }
 
     render() {
         return (
@@ -56,7 +67,7 @@ class Content extends React.Component {
                     <h2 className="section-title font-weight-bold">Skills Overview</h2>
                 </div>
 
-                <Education/>
+                <Education ref={this.education} id="education"/>
 
                 <div className="experience-section content-section-container">
                     <h2 className="section-title font-weight-bold">Experience</h2>

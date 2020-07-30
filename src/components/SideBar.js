@@ -8,6 +8,10 @@ import { Tooltip } from 'react-bootstrap';
 
 // left column of Home page, containing basic Profile, Navigation, and Contacts
 class SideBar extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <nav className="sidebar">
@@ -26,7 +30,8 @@ class SideBar extends React.Component {
                     <li className="nav-item">
                         <a className="nav-link px-3 py-1" href="#">ABOUT ME</a></li>
                     <li className="nav-item">
-                        <a className="nav-link px-3 py-1" href="#education">EDUCATION</a></li>
+                        <a className="nav-link px-3 py-1" onClick={() => {
+                                this.scrolling(this.education);}}>EDUCATION</a></li>
                     <li className="nav-item">
                         <a className="nav-link px-3 py-1" href="#experience">EXPERIENCE</a></li>
                     <li className="nav-item">

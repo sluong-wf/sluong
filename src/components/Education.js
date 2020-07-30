@@ -1,16 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaEnvelope } from 'react-icons/fa';
-import tohokuLogo from '../assets/images/tohoku_logo.png'
-import uciLogo from '../assets/images/uci_logo.png'
 
 function Education() {
     return (
-        <div className="education-section content-section-container">
+        <div className="education-section content-section-container" id="education">
             <h2 className="section-title font-weight-bold">Education</h2>
             <Container fluid={true}>
                 <Row className="pt-3 education-item">
-                    <img className="school-logo" src={uciLogo} alt/>
                     <Col className="education-item-main">
                         <h4>University of California, Irvine</h4>
                         <b>2016 - 2020</b>
@@ -39,7 +36,6 @@ function Education() {
                     </Col>
                 </Row>
                 <Row className="pt-3 education-item">
-                    <img className="school-logo" src={tohokuLogo} alt/>
                     <Col className="education-item-main">
                         <h4>Tohoku University, Japan</h4>
                         <b>Spring 2019</b>
