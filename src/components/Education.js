@@ -1,16 +1,16 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaEnvelope } from 'react-icons/fa';
 
 function Education() {
     return (
-        <div className="education-section content-section-container" id="education">
+        <div className="education-section content-section-container">
             <h2 className="section-title font-weight-bold">Education</h2>
             <Container fluid={true}>
                 <Row className="pt-3 education-item">
                     <Col className="education-item-main">
                         <h4>University of California, Irvine</h4>
-                        <b>2016 - 2020</b>
+                        <b>Sept 2016 - June 2020</b> <br/>
+                        <b style={{fontWeight:"normal"}}>Graduated Cum Laude</b>
                     </Col>
                     <Col className="education-item-details">
                         <b style={{fontWeight:"bold"}}>Computer Science and Engineering, B.S.</b> <br/>
@@ -22,13 +22,14 @@ function Education() {
                                     <li>Artificial Intelligence</li>
                                     <li>Computer Vision</li>
                                     <li>Machine Learning</li>
+                                    <li>Computer Networks</li>
                                     <li>Databases</li>
                                 </ul>
                             </div>
                             <div className="col course-list">
                                 <ul>
-                                    <li>Computer Networks</li>
                                     <li>Embedded Systems</li>
+                                    <li>Data Structure & Algorithms</li>
                                     <li>Compilers</li>
                                 </ul>
                             </div>

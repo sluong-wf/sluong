@@ -30,12 +30,11 @@ class SideBar extends React.Component {
                     <li className="nav-item">
                         <a className="nav-link px-3 py-1" href="#">ABOUT ME</a></li>
                     <li className="nav-item">
-                        <a className="nav-link px-3 py-1" onClick={() => {
-                                this.scrolling(this.education);}}>EDUCATION</a></li>
+                        <a className="nav-link px-3 py-1" href="#education">EDUCATION</a></li>
                     <li className="nav-item">
                         <a className="nav-link px-3 py-1" href="#experience">EXPERIENCE</a></li>
                     <li className="nav-item">
-                        <a className="nav-link px-3 py-1" href="Projects">PROJECTS</a></li>
+                        <a className="nav-link px-3 py-1" href="#projects">PROJECTS</a></li>
                 </ul>
 
 
