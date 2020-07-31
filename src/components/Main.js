@@ -1,13 +1,15 @@
 import React, {useState, Fragment} from 'react';
-import { Tooltip,Container } from 'react-bootstrap';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaFileAlt, FaDownload } from "react-icons/fa";
+import { Tooltip, Container, Button, Modal } from 'react-bootstrap';
+import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaDownload } from "react-icons/fa";
 
-import Hero from './Hero'
-import Education from './Education'
+import Hero from './Hero';
+import Education from './Education';
 import Experience from './Experience';
 import Projects from './Projects';
+import ResumeModal from './Modal';
 
 import profile_pic from "../assets/images/profile_pic.png";
+import resume_pdf from "../assets/sluong-resume.pdf";
 
 class Main extends React.Component {
     constructor(props) {
@@ -18,6 +20,7 @@ class Main extends React.Component {
         this.projects = React.createRef();
         
         this.scrolling = this.scrolling.bind(this);
+
 
         this.state = {
             profile: {
@@ -90,11 +93,9 @@ class Main extends React.Component {
                     <div className="about-section content-section-container">
                         <Hero {...this.state.profile}/>
                         <div>
-                            <button className="button" data-toggle="modal" data-target="#myModal">
-                                <FaFileAlt className="icon-size-adjust"/> View Resume
-                            </button>
+                            <ResumeModal />
                             <span style={{margin: 5}}></span>
-                            <a href="../assets/sluong-resume.pdf" download="resume.pdf">
+                            <a href={resume_pdf} download="sluong-resume.pdf">
                                 <button className="button dark-gray">
                                     <FaDownload className="icon-size-adjust"/> Download
                                 </button>
