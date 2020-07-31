@@ -13,6 +13,12 @@ class Main extends React.Component {
     constructor(props) {
         super(props);
 
+        this.education = React.createRef();
+        this.experience = React.createRef();
+        this.projects = React.createRef();
+        
+        this.scrolling = this.scrolling.bind(this);
+
         this.state = {
             profile: {
                 name: 'Shayla Luong',
@@ -37,6 +43,14 @@ class Main extends React.Component {
             ]
         }
     }
+    
+	scrolling(instance) {
+		let node = document.getElementById(instance.current.props.id);
+		window.scrollTo({
+			top: node.offsetTop,
+			behavior: "smooth"
+		});
+	}
 
     render() {
         return (
@@ -57,26 +71,24 @@ class Main extends React.Component {
                         <li className="nav-item">
                             <a className="nav-link px-3 py-1" href="#">ABOUT ME</a></li>
                         <li className="nav-item">
-                            <a className="nav-link px-3 py-1" href="#education">EDUCATION</a></li>
+                            <a className="nav-link px-3 py-1" onClick={()=>this.scrolling(this.education)}>EDUCATION</a></li>
                         <li className="nav-item">
-                            <a className="nav-link px-3 py-1" href="#experience">EXPERIENCE</a></li>
+                            <a className="nav-link px-3 py-1" onClick={()=>this.scrolling(this.experience)}>EXPERIENCE</a></li>
                         <li className="nav-item">
-                            <a className="nav-link px-3 py-1" href="#projects">PROJECTS</a></li>
+                            <a className="nav-link px-3 py-1" onClick={()=>this.scrolling(this.projects)}>PROJECTS</a></li>
                     </ul>
 
 
-                    <div className="footer-section">
-                        <div className="social_contacts">
-                            <a className="social-icon" href="https://github.com/nluong1021"><FaGithub size="1.2em"/></a>
-                            <a className="social-icon" href="https://linkedin.com/in/shayla-luong"><FaLinkedin size="1.2em"/></a>
-                            <a className="social-icon" href="https://facebook.com/ngan.luong.58"><FaFacebook size="1.2em"/></a>
-                        </div>
-                    </div>
+                    <footer className="footer-section social_contacts">
+                        <a className="social-icon" href="https://github.com/nluong1021"><FaGithub size="1.2em"/></a>
+                        <a className="social-icon" href="https://linkedin.com/in/shayla-luong"><FaLinkedin size="1.2em"/></a>
+                        <a className="social-icon" href="https://facebook.com/ngan.luong.58"><FaFacebook size="1.2em"/></a>
+                    </footer>
                 </nav>
 
                 <div className="content">
                     <div className="about-section content-section-container">
-                        <Hero name={this.state.profile.name} title={this.state.profile.title} info={this.state.profile.info}/>
+                        <Hero {...this.state.profile}/>
                         <div>
                             <button className="button" data-toggle="modal" data-target="#myModal">
                                 <FaFileAlt className="icon-size-adjust"/> View Resume
@@ -94,9 +106,9 @@ class Main extends React.Component {
                         <h2 className="section-title font-weight-bold">Skills Overview</h2>
                     </div>
 
-                    <Education />
-                    <Experience />
-                    <Projects />
+                    <Education ref={this.education} id="my-education"/>
+                    <Experience ref={this.experience} id="my-experience"/>
+                    <Projects ref={this.projects} id="my-projects"/>
                 </div>
             </Fragment>
         );
