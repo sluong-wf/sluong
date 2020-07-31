@@ -100,22 +100,17 @@ code {
 
 .nav-item {
   color: white;
-  margin: auto;
+  margin: 0.2rem auto;
   width: 75%;
   left: 25px;
   font-weight: 300;
   padding-bottom: 5px;
 }
 
-.nav-link {
-  color: #fff;
-  margin: 0.2rem 0;
-  padding: 0;
-}
-
-.nav-link:hover {
+.nav-item:hover {
   border-left: solid 4px white;
   color: var(--main-darker);
+  cursor: pointer;
 }
 
 .content {

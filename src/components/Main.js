@@ -69,7 +69,7 @@ class Main extends React.Component {
 
                     <ul className="nav nav-section">
                         <li className="nav-item">
-                            <a className="nav-link px-3 py-1" href="#">ABOUT ME</a></li>
+                            <a className="nav-link px-3 py-1" onClick={()=>window.scrollTo({top: 0,behavior: "smooth"})}>ABOUT ME</a></li>
                         <li className="nav-item">
                             <a className="nav-link px-3 py-1" onClick={()=>this.scrolling(this.education)}>EDUCATION</a></li>
                         <li className="nav-item">
