@@ -1,5 +1,5 @@
-import React, {useState, Fragment} from 'react';
-import { Tooltip, Container, Button, Modal } from 'react-bootstrap';
+import React, { Fragment } from 'react';
+import { Tooltip } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaDownload } from "react-icons/fa";
 
 import Hero from './Hero';
@@ -7,6 +7,7 @@ import Education from './Education';
 import Experience from './Experience';
 import Projects from './Projects';
 import ResumeModal from './Modal';
+import Skills from './Skills';
 
 import profile_pic from "../assets/images/profile_pic.png";
 import resume_pdf from "../assets/sluong-resume.pdf";
@@ -103,9 +104,7 @@ class Main extends React.Component {
                         </div>
                     </div>
 
-                    <div className="skills-section content-section-container">
-                        <h2 className="section-title font-weight-bold">Skills Overview</h2>
-                    </div>
+                    <Skills />
 
                     <Education ref={this.education} id="my-education"/>
                     <Experience ref={this.experience} id="my-experience"/>
