@@ -90,7 +90,7 @@ class Main extends React.Component {
                 </nav>
 
                 <div className="content">
-                    <div className="about-section content-section-container">
+                    <div className="about-section">
                         <Hero {...this.state.profile}/>
                         <div>
                             <ResumeModal />
@@ -110,6 +110,7 @@ class Main extends React.Component {
                     <Education ref={this.education} id="my-education"/>
                     <Experience ref={this.experience} id="my-experience"/>
                     <Projects ref={this.projects} id="my-projects"/>
+                    <footer style={{color:"lightgray", marginLeft:30}}>© SHAYLA LUONG | THANKS FOR VISITING!</footer>
                 </div>
             </Fragment>
         );

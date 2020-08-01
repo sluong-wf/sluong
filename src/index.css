@@ -7,6 +7,7 @@
   --main-ligher:#00bed5;
   --main-darker:#007889;
   --dark-gray:#535353;
+  --light-gray:rgb(240, 240, 240);
 }
 
 body {
@@ -115,15 +116,14 @@ code {
 
 .content {
   height:100%;
-  background: rgb(255, 255, 255);
+  background: var(--light-gray);
   margin-left:18rem;
   font-family: 'Roboto', sans-serif;
 }
 
 .about-section {
-  background: rgb(248, 248, 248);
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 3rem;
+  max-width: 65rem !important;
 }
 
 .button {
@@ -155,9 +155,11 @@ code {
 }
 
 .content-section-container {
-  padding-left: 3rem;
-  padding-right: 3rem;
-  margin-bottom: 3rem;
+  background-color: white;
+  padding: 3rem;
+  margin: 1.5rem;
+  max-width: 65rem !important;
+  border: solid 1px rgb(224, 224, 224);
 }
 
 .section-title::before {
@@ -170,6 +172,7 @@ code {
   font-size: 2rem;
 }
 
+/* EDUCATION SECTION */
 .school-logo {
   width: 5rem;
   height: auto;
@@ -185,7 +188,7 @@ code {
 }
 
 .course-list {
-  max-width: 12rem !important;
+  max-width: 15rem !important;
   color: var(--dark-gray);
   font-weight: normal;
   padding: 0 !important;

@@ -20,18 +20,19 @@ class Education extends React.Component {
                             <div className="row">
                                 <div className="col course-list">
                                     <ul>
+                                        <li>Database Management</li>
+                                        <li>Computer Networks</li>
                                         <li>Artificial Intelligence</li>
                                         <li>Computer Vision</li>
                                         <li>Machine Learning</li>
-                                        <li>Computer Networks</li>
-                                        <li>Databases</li>
+                                        <li>Compilers & Intepreter</li>
                                     </ul>
                                 </div>
                                 <div className="col course-list">
                                     <ul>
-                                        <li>Embedded Systems</li>
                                         <li>Data Structure & Algorithms</li>
-                                        <li>Compilers</li>
+                                        <li>Embedded Software</li>
+                                        <li>Operating Systems</li>
                                     </ul>
                                 </div>
                             </div>
@@ -44,7 +45,7 @@ class Education extends React.Component {
                         </Col>
                         <Col className="education-item-details">
                             <b style={{fontWeight:"bold"}}>UC Education Abroad Program</b> <br/>
-                            <b>Lab Research: Computer Vision</b>
+                            <b>Lab Research: High-speed projection mapping on dynamical surfaces using systems and algorithms optimized for vision processing.</b>
                         </Col>
                     </Row>
                 </Container>
