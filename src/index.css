@@ -4,7 +4,7 @@
 
 :root {
   --main-color:#00a6bd;
-  --main-ligher:#00bed5;
+  --main-lighter:#00bed5;
   --main-darker:#007889;
   --dark-gray:#535353;
   --light-gray:rgb(240, 240, 240);
@@ -41,10 +41,10 @@ code {
 .profile_img {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 15%;
-  padding-right: 15%;
   width: 100%;
+  max-width: 14rem;
   border-radius: 50%;
+  border: double 4px white;
 }
 
 .header-section {
@@ -103,7 +103,6 @@ code {
   color: white;
   margin: 0.2rem auto;
   width: 75%;
-  left: 25px;
   font-weight: 300;
   padding-bottom: 5px;
 }
@@ -203,6 +202,7 @@ code {
   border-radius: 1rem;
   min-width: 9rem !important;
   max-width: 15rem !important;
+  transition: border 0.3s ease;
 }
 
 .skill-col:hover {

@@ -9,7 +9,7 @@ import Projects from './Projects';
 import ResumeModal from './Modal';
 import Skills from './Skills';
 
-import profile_pic from "../assets/images/profile_pic.png";
+import profile_pic from "../assets/images/profile_pic.jpg";
 import resume_pdf from "../assets/sluong-resume.pdf";
 
 class Main extends React.Component {
