@@ -215,3 +215,17 @@ code {
   list-style: None;
   text-align: center;
 }
+
+
+/* PROJECTS SECTION */
+.project-item .row {
+  padding-top: 2rem;
+}
+
+.project-item span {
+  border: solid 1px var(--dark-gray);
+  color: var(--dark-gray);
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  margin-right: 0.5rem;
+}

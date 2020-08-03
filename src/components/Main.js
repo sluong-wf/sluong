@@ -28,23 +28,7 @@ class Main extends React.Component {
                 name: 'Shayla Luong',
                 title: 'Software Developer',
                 info: 'something something'
-            },
-            experience: [
-                {
-                    id: 0,
-                    jobTitle: '',
-                    description: '',
-                    selected: false
-                }
-            ],
-            education: [
-                {
-                    id: 0,
-                    school: 'University of California, Irvine',
-                    description: '',
-                    selected: false
-                }
-            ]
+            }
         }
     }
     
@@ -109,7 +93,7 @@ class Main extends React.Component {
                     <Education ref={this.education} id="my-education"/>
                     <Experience ref={this.experience} id="my-experience"/>
                     <Projects ref={this.projects} id="my-projects"/>
-                    <footer style={{color:"lightgray", marginLeft:30}}>© SHAYLA LUONG | THANKS FOR VISITING!</footer>
+                    <footer style={{color:"lightgray", marginLeft:30}}>© 2020 SHAYLA LUONG | THANKS FOR VISITING!</footer>
                 </div>
             </Fragment>
         );

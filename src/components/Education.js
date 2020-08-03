@@ -11,7 +11,7 @@ class Education extends React.Component {
                         <Col className="education-item-main">
                             <h4>University of California, Irvine</h4>
                             <b>Sept 2016 - June 2020</b> <br/>
-                            <b style={{fontWeight:"normal"}}>Graduated Cum Laude</b>
+                            <p>Graduated Cum Laude</p>
                         </Col>
                         <Col className="education-item-details">
                             <b style={{fontWeight:"bold"}}>Computer Science and Engineering, B.S.</b> <br/>
