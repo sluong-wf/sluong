@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sluong/static/css/main.55b2a602.chunk.css",
-    "main.js": "/sluong/static/js/main.a0eefff7.chunk.js",
-    "main.js.map": "/sluong/static/js/main.a0eefff7.chunk.js.map",
+    "main.js": "/sluong/static/js/main.430e7a51.chunk.js",
+    "main.js.map": "/sluong/static/js/main.430e7a51.chunk.js.map",
     "runtime-main.js": "/sluong/static/js/runtime-main.f99ec774.js",
     "runtime-main.js.map": "/sluong/static/js/runtime-main.f99ec774.js.map",
     "static/css/2.829c9cb5.chunk.css": "/sluong/static/css/2.829c9cb5.chunk.css",
     "static/js/2.a790f555.chunk.js": "/sluong/static/js/2.a790f555.chunk.js",
     "static/js/2.a790f555.chunk.js.map": "/sluong/static/js/2.a790f555.chunk.js.map",
     "index.html": "/sluong/index.html",
-    "precache-manifest.e2d0976bf4c3866dc9cbd19b0c3559b1.js": "/sluong/precache-manifest.e2d0976bf4c3866dc9cbd19b0c3559b1.js",
+    "precache-manifest.0897c6ba8df2125793d4c133b7d01036.js": "/sluong/precache-manifest.0897c6ba8df2125793d4c133b7d01036.js",
     "service-worker.js": "/sluong/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/sluong/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.55b2a602.chunk.css.map": "/sluong/static/css/main.55b2a602.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.a790f555.chunk.js",
     "static/css/main.55b2a602.chunk.css",
-    "static/js/main.a0eefff7.chunk.js"
+    "static/js/main.430e7a51.chunk.js"
   ]
 }
