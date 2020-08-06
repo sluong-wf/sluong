@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { FaGithub } from 'react-icons/fa'
+import { FiExternalLink } from 'react-icons/fi'
 
 import img_smartbins from '../assets/images/project-smartbins.jpg'
 import img_blink from '../assets/images/project-blink.jpg'
@@ -17,12 +18,23 @@ class Projects extends React.Component {
                 image: img_smartbins,
                 link: "http://projects.eng.uci.edu/projects/2019-2020/smart-bins",
                 title: "Smart Bins - Automated Trash-Sorting System",
-                subtitle: "Senior Design Project",
+                subtitle: "Senior Design Project - UCI",
                 text: `Built and image processing pipeline to collect and process images received
                     from physical trash bin with camera and sensors attached. Implemented a CNN
                     classifier to automatically sort waste into trash, recycle, and compost bins.`,
                 github: "",
                 tags: ["Azure","Python","Keras"]
+            },
+            {
+                image: img_blink,
+                link: "https://devpost.com/software/blink-w8ypt3",
+                title: "blink - Digital Business Card Sharing Through NFC",
+                subtitle: "SD Hacks 2018",
+                text: `Built and image processing pipeline to collect and process images received
+                    from physical trash bin with camera and sensors attached. Implemented a CNN
+                    classifier to automatically sort waste into trash, recycle, and compost bins.`,
+                github: "https://github.com/mi-chellenguyen/blink",
+                tags: ["Android Studio","Java","Firebase"]
             },
             {
                 image: img_dare,
@@ -36,17 +48,6 @@ class Projects extends React.Component {
                     culture.`,
                 github: "https://github.com/nluong1021/SBHacks",
                 tags: ["OpenCV","CSS/HTML","Python","Flask","GCP"]
-            },
-            {
-                image: img_blink,
-                link: "https://devpost.com/software/blink-w8ypt3",
-                title: "blink - Digital Business Card Sharing Through NFC",
-                subtitle: "SD Hacks 2018",
-                text: `Built and image processing pipeline to collect and process images received
-                    from physical trash bin with camera and sensors attached. Implemented a CNN
-                    classifier to automatically sort waste into trash, recycle, and compost bins.`,
-                github: "https://github.com/mi-chellenguyen/blink",
-                tags: ["Android Studio","Java","Firebase"]
             },
             {
                 image: img_inbetween,
@@ -81,7 +82,14 @@ class Projects extends React.Component {
                     {items.map(item =>
                         <Row>
                             <Col xs="4">
-                                <img className="project-image" src={item.image}/>
+                                <div className="project-image">
+                                    <a href={item.link} target="_blank">
+                                        <img src={item.image}/>
+                                        <div className="overlay">
+                                            <h4>View Project <FiExternalLink size="1.1em" className="icon-size-adjust"/></h4>
+                                        </div>
+                                    </a>
+                                </div>
                             </Col>
                             <Col>
                                 <h4 key={item.title}>{item.title}</h4>
