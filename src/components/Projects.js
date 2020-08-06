@@ -1,5 +1,12 @@
-import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { FaGithub } from 'react-icons/fa'
+
+import img_smartbins from '../assets/images/project-smartbins.jpg'
+import img_blink from '../assets/images/project-blink.jpg'
+import img_inbetween from '../assets/images/project-inbetween.jpg'
+import img_dare from '../assets/images/project-dare.jpg'
+import img_chick from '../assets/images/project-chickinfinite.jpg'
 
 class Projects extends React.Component {
     constructor() {
@@ -7,27 +14,59 @@ class Projects extends React.Component {
 
         this.state = {items: [
             {
-                image: {},
-                name: "Smart Bins - Automated Trash-Sorting System",
+                image: img_smartbins,
+                link: "http://projects.eng.uci.edu/projects/2019-2020/smart-bins",
+                title: "Smart Bins - Automated Trash-Sorting System",
+                subtitle: "Senior Design Project",
                 text: `Built and image processing pipeline to collect and process images received
                     from physical trash bin with camera and sensors attached. Implemented a CNN
                     classifier to automatically sort waste into trash, recycle, and compost bins.`,
+                github: "",
                 tags: ["Azure","Python","Keras"]
             },
             {
-                image: {},
-                name: "blink - Digital Business Card Sharing Through NFC",
+                image: img_dare,
+                link: "https://devpost.com/software/sbhacks-gpdtq1",
+                title: "DARE - Dictionary & Augmented Reality Explorer",
+                subtitle: "SB Hacks V",
+                text: `We developed a web application that revolved around translating images with 
+                    foreign text into English, which would then be stored into flash cards. We built 
+                    our application with the hopes that students studying abroad or anyone who likes 
+                    to travel can spend less time learning the language and more time soaking in the 
+                    culture.`,
+                github: "https://github.com/nluong1021/SBHacks",
+                tags: ["OpenCV","CSS/HTML","Python","Flask","GCP"]
+            },
+            {
+                image: img_blink,
+                link: "https://devpost.com/software/blink-w8ypt3",
+                title: "blink - Digital Business Card Sharing Through NFC",
+                subtitle: "SD Hacks 2018",
                 text: `Built and image processing pipeline to collect and process images received
                     from physical trash bin with camera and sensors attached. Implemented a CNN
                     classifier to automatically sort waste into trash, recycle, and compost bins.`,
+                github: "https://github.com/mi-chellenguyen/blink",
                 tags: ["Android Studio","Java","Firebase"]
             },
             {
-                image: {},
-                name: "InBetween - Navigation for Meetups",
+                image: img_inbetween,
+                link: "https://devpost.com/software/inbetween",
+                title: "InBetween - Navigation for Meetups",
+                subtitle: "LA Hacks 2018",
                 text: `Built a web application that calculates real-time distance between two locations
                     and suggests nearby interest points, based on user activity.`,
-                tags: ["HTML/CSS","Boostrap","JavaScript","Django","Python"]
+                github: "https://github.com/uci-mars/InBetween",
+                tags: ["HTML/CSS","JavaScript","Django","Python","GCP"]
+            },
+            {
+                image: img_chick,
+                link: "https://devpost.com/software/hackuci-chicken",
+                title: "ChickInfinite - Mobile Game",
+                subtitle: "HackUCI 2018",
+                text: `Worked on all aspects of the application - implemented the game logic, incorporating
+                    graphics and sound. Awarded Most Polished App at HackUCI by Gigabyte.`,
+                github: "https://github.com/JLONH56589/HackUCI-chicken",
+                tags: ["Python","Kivy"]
             }
         ]
         }
@@ -41,13 +80,15 @@ class Projects extends React.Component {
                 <Container className="project-item">
                     {items.map(item =>
                         <Row>
-                            <Col xs="2">
-                                <img src={item.image} alt/>
+                            <Col xs="4">
+                                <img className="project-image" src={item.image}/>
                             </Col>
                             <Col>
-                                <h4 key={item.name}>{item.name}</h4>
+                                <h4 key={item.title}>{item.title}</h4>
+                                {item.subtitle && <b style={{color:"gray"}}>{item.subtitle}</b>}
                                 <p key={item.name}>{item.text}</p>
                                 <div>
+                                    {item.github && <a className="project-github-link" href={item.github}><FaGithub size="1.4em"/></a>}
                                     {item.tags.map(tag =>
                                         <span key={item.name}>{tag}</span>)}
                                 </div>

@@ -218,14 +218,36 @@ code {
 
 
 /* PROJECTS SECTION */
+.project-item {
+  padding: 0 !important;
+}
+
 .project-item .row {
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 
 .project-item span {
-  border: solid 1px var(--dark-gray);
+  border: solid 1px lightgray;
   color: var(--dark-gray);
   border-radius: 20px;
   padding: 0.2rem 1rem;
   margin-right: 0.5rem;
+  font-size: 14px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.project-github-link {
+  color: rgb(114, 114, 114);
+  margin-right: 0.3rem;
+}
+
+.project-github-link:hover {
+  color: var(--dark-gray);
 }
