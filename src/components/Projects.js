@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { FaGithub } from 'react-icons/fa'
 import { FiExternalLink } from 'react-icons/fi'
 
@@ -69,12 +70,18 @@ class Projects extends React.Component {
                 github: "https://github.com/JLONH56589/HackUCI-chicken",
                 tags: ["Python","Kivy"]
             }
-        ]
-        }
+        ]}
     }
 
     render() {
-        let items = this.state.items
+        let items = this.state.items;
+
+        const renderTooltip = (props) => (
+            <Tooltip id="button-tooltip" {...props}>
+                View Code
+            </Tooltip>
+        );
+
         return (
             <div className="projects-section content-section-container" id="my-projects">
                 <h2 className="section-title font-weight-bold">Projects</h2>
@@ -96,7 +103,11 @@ class Projects extends React.Component {
                                 {item.subtitle && <b style={{color:"gray"}}>{item.subtitle}</b>}
                                 <p key={item.name}>{item.text}</p>
                                 <div>
-                                    {item.github && <a className="project-github-link" href={item.github}><FaGithub size="1.4em"/></a>}
+                                    {item.github && 
+                                        <OverlayTrigger placement="bottom" delay={{ show: 300, hide: 250 }} overlay={renderTooltip}>
+                                            <a className="project-github-link" href={item.github} target="_blank"><FaGithub size="1.4em"/></a>                
+                                        </OverlayTrigger>
+                                    }
                                     {item.tags.map(tag =>
                                         <span key={item.name}>{tag}</span>)}
                                 </div>
