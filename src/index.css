@@ -281,3 +281,24 @@ code {
 .project-github-link:hover {
   color: var(--dark-gray);
 }
+
+/* EXPERIENCE SECTION */
+.experience-item h5 {
+  color: #0b6b88;
+}
+
+.experience-item b {
+  font-weight: normal;
+  font-size: 15px;
+  color: gray;
+}
+
+.card {
+  padding: 1.5rem !important;
+  margin: 1rem;
+  filter: drop-shadow(2px 2px 4px #c7c7c7);
+}
+
+.card:hover {
+  filter: drop-shadow(2px 2px 6px #a8a8a8);
+}
