@@ -30,9 +30,9 @@ class Projects extends React.Component {
                 link: "https://devpost.com/software/blink-w8ypt3",
                 title: "blink - Digital Business Card Sharing Through NFC",
                 subtitle: "SD Hacks 2018",
-                text: `Built and image processing pipeline to collect and process images received
-                    from physical trash bin with camera and sensors attached. Implemented a CNN
-                    classifier to automatically sort waste into trash, recycle, and compost bins.`,
+                text: `Developed an Android application that uses NFC technology to communicate and
+                    share digital business profiles between devices. Integrated Google's Firebase
+                    database and authentication services to store and fetch user data.`,
                 github: "https://github.com/mi-chellenguyen/blink",
                 tags: ["Android Studio","Java","Firebase"]
             },
