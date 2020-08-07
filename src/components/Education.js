@@ -15,7 +15,7 @@ class Education extends React.Component {
                         </Col>
                         <Col className="education-item-details">
                             <b style={{fontWeight:"bold"}}>Computer Science and Engineering, B.S.</b> <br/>
-                            <b>GPA: 😀</b> <br/>
+                            <b>GPA: 3.78</b> <br/>
                             <b>Relevant Courses:</b>
                             <div className="row">
                                 <div className="col course-list">

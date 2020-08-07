@@ -1,16 +1,16 @@
-import React, { Fragment } from 'react';
-import { Tooltip } from 'react-bootstrap';
-import { FaGithub, FaLinkedin, FaFacebook, FaEnvelope, FaDownload } from "react-icons/fa";
+import React, { Fragment } from 'react'
+import { FaGithub, FaLinkedin, FaFacebook, FaDownload } from "react-icons/fa"
+import { FiMail } from 'react-icons/fi'
 
-import Hero from './Hero';
-import Education from './Education';
-import Experience from './Experience';
-import Projects from './Projects';
-import ResumeModal from './Modal';
-import Skills from './Skills';
+import Hero from './Hero'
+import Education from './Education'
+import Experience from './Experience'
+import Projects from './Projects'
+import ResumeModal from './Modal'
+import Skills from './Skills'
 
-import profile_pic from "../assets/images/profile_pic.jpg";
-import resume_pdf from "../assets/sluong-resume.pdf";
+import profile_pic from "../assets/images/profile_pic.jpg"
+import resume_pdf from "../assets/sluong-resume.pdf"
 
 class Main extends React.Component {
     constructor(props) {
@@ -50,8 +50,8 @@ class Main extends React.Component {
                         <h2>SHAYLA LUONG</h2>
 
                         <div className="email-container">
-                            <span className="pr-2"><FaEnvelope className="icon-size-adjust"/></span>
-                            <a className="e-mail" href="mailto:luongnh1@uci.edu">luongnh1@uci.edu</a>
+                            <span className="pr-1"><FiMail className="icon-size-adjust"/></span>
+                            <a className="e-mail" href="mailto:sluong910@gmail.com">sluong910@gmail.com</a>
                         </div>
                     </div>
 
@@ -68,9 +68,9 @@ class Main extends React.Component {
 
 
                     <footer className="footer-section social_contacts">
-                        <a className="social-icon" href="https://github.com/nluong1021" target="_blank"><FaGithub size="1.2em"/></a>
-                        <a className="social-icon" href="https://linkedin.com/in/shayla-luong" target="_blank"><FaLinkedin size="1.2em"/></a>
-                        <a className="social-icon" href="https://facebook.com/ngan.luong.58" target="_blank"><FaFacebook size="1.2em"/></a>
+                        <a className="social-icon" title="Github" href="https://github.com/nluong1021" target="_blank"><FaGithub size="1.2em"/></a>
+                        <a className="social-icon" title="LinkedIn" href="https://linkedin.com/in/shayla-luong" target="_blank"><FaLinkedin size="1.2em"/></a>
+                        <a className="social-icon" title="Facebook" href="https://facebook.com/ngan.luong.58" target="_blank"><FaFacebook size="1.2em"/></a>
                     </footer>
                 </nav>
 

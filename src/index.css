@@ -62,7 +62,14 @@ code {
 .e-mail {
   margin: 0;
   font-weight: lighter;
-  color: white;
+  color: black;
+  background-color:white
+}
+
+.e-mail:hover {
+  text-decoration: none;
+  color: var(--main-darker);
+  border-bottom: 0;
 }
 
 .email-container {
@@ -71,7 +78,14 @@ code {
   margin-right: 15px;
   border-radius: 5px;
   border: solid 0px var(--main-darker);
+  background-color: white;
+  color: var(--dark-gray);
 }
+
+.email-container:hover {
+  color: var(--main-darker);
+}
+
 
 .social_contacts {
   text-align: center;
