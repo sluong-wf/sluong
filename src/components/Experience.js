@@ -46,9 +46,9 @@ class Experience extends React.Component {
             <div className="experience-section content-section-container" id="my-experience">
                 <h2 className="section-title font-weight-bold">Experience</h2>
 
-                <Container className="experience-item">
+                <Container className="experience-container">
                     {items.map(item =>
-                        <Row>
+                        <Row className="experience-item">
                             <Col xs="2">
                             </Col>
                             <Col className="card">
