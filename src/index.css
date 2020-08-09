@@ -134,6 +134,23 @@ code {
   font-family: 'Roboto', sans-serif;
 }
 
+.main-section {
+  max-width: 65rem !important;
+}
+
+.main-section h3 {
+  color: var(--dark-gray);
+  font-size: 40px;
+}
+
+.main-section p {
+  font-size: 20px;
+  font-weight: normal;
+  background-color: lightgray;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
 .about-section {
   padding: 3rem;
   max-width: 65rem !important;

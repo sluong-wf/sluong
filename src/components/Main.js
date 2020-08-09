@@ -27,7 +27,11 @@ class Main extends React.Component {
             profile: {
                 name: 'Shayla Luong',
                 title: 'Software Developer',
-                info: 'something something'
+                info: `Hi there! Welcome to my website. I\'m an aspiring software developer and recent graduate 
+                    from the University of California, Irvine. I decided to create this website to gain some hands-on 
+                    experience, learn new skills, and most importantly, to work on something that I enjoy. The code
+                    for this can be viewed here. In my free time, I also enjoy drawing, designing, and phography. Check
+                    out some of my work in this portfolio!`
             }
         }
     }

@@ -9,10 +9,10 @@ function Hero(props) {
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row>
-                    <Col md={8} sm={12} className="px-0">
+                    <Col className="px-0 main-section">
                         <h1 className="display-2 font-weight-bolder px-0">{props.name}</h1>
                         <h3 className="display-5 font-weight-normal">{props.title}</h3>
-                        <h3 className="lead font-weight-light">{props.info}</h3>
+                        <p>{props.info}</p>
                     </Col>
                 </Row>
             </Container>
