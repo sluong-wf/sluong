@@ -7,6 +7,13 @@ class Experience extends React.Component {
 
         this.state = {items: [
             {
+                title: "Software Engineer I",
+                company: "Raytheon Intelligence and Space",
+                period: "Sep 2020 - Present",
+                location: "Goleta, CA",
+                description: ["To be filled out later"],
+            },
+            {
                 title: "IT Tech Support",
                 company: "Tu Luc",
                 period: "Sep 2019 - Dec 2019",
