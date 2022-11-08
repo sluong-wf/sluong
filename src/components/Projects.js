@@ -102,7 +102,7 @@ class Projects extends React.Component {
                                 <h4 key={item.title}>{item.title}</h4>
                                 {item.subtitle && <b style={{color:"gray"}}>{item.subtitle}</b>}
                                 <p key={item.name}>{item.text}</p>
-                                <div>
+                                <div className="tech-stack">
                                     {item.github && 
                                         <OverlayTrigger placement="bottom" delay={{ show: 300, hide: 250 }} overlay={renderTooltip}>
                                             <a className="project-github-link" href={item.github} target="_blank"><FaGithub size="1.4em"/></a>                
