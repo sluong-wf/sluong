@@ -23,9 +23,9 @@ function ResumeModal() {
             show={show}
             onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Resume <b style={{fontWeight:"normal", fontStyle:"italic"}}>(Updated July 2020)</b></Modal.Title>
+                <Modal.Title>Resume <b style={{fontWeight:"normal", fontStyle:"italic", fontSize:"0.8rem"}}>(Updated Sept 2022)</b></Modal.Title>
             </Modal.Header>
-            <Modal.Body><Image src={resume_img} fluid /></Modal.Body>
+            <Modal.Body className="text-center"><Image src={resume_img} fluid /></Modal.Body>
             <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
                 Close

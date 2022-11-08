@@ -7,11 +7,21 @@ class Experience extends React.Component {
 
         this.state = {items: [
             {
+                title: "Software Engineering Intern",
+                company: "Palo Alto Networks",
+                period: "May 2022 - Aug 2022",
+                location: "Santa Clara, CA",
+                description: [`Designed and implemented an automated health-check and notification system for internal Java micro-services and third-party API endpoints.`,
+                    `Familiarized with industry practices and tools such as Agile development process, Datadog monitoring service, Docker, Redis, and CI/CD pipeline.`],
+            },
+            {
                 title: "Software Engineer I",
                 company: "Raytheon Intelligence and Space",
-                period: "Sep 2020 - Present",
+                period: "Sep 2020 - Nov 2021",
                 location: "Goleta, CA",
-                description: ["To be filled out later"],
+                description: [`Developed Windows .NET applications to interface automated testing frameworks with hardware parts 
+                    using C#, C++, and Matlab.`, `Collaborated with Test and Systems Engineers to lead software validation,
+                    testing, and revision releases, achieving multiple early release incentives.`],
             },
             {
                 title: "IT Tech Support",

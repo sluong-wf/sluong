@@ -22,13 +22,14 @@ class Main extends React.Component {
         
         this.scrolling = this.scrolling.bind(this);
 
-
         this.state = {
             profile: {
                 name: 'Shayla Luong',
-                title: 'Software Developer',
-                info: `Hi there! Welcome to my portfolio. I\'m an aspiring software developer, recently graduated 
-                    from the University of California, Irvine.`
+                // title: 'Software Engineer',
+                info: `Hi there! Welcome to my web portfolio where I show off all the content I couldn't squeeze into my resume. I\'m an aspiring software developer
+                currently pursuing a Master's degree in Computer Science. I enjoy working on personal projects involving building software or web applications in my 
+                free time. I also dabble in a bit of tennis, guitar, and graphic design. I\'m always eager to learn something new that helps me make better sense of
+                the world!`
             }
         }
     }
@@ -48,7 +49,7 @@ class Main extends React.Component {
                     <div className="header-section">
                         <img className="profile_img" src={profile_pic} alt/>
 
-                        <h2>SHAYLA LUONG</h2>
+                        {/* <h2>SHAYLA LUONG</h2> */}
 
                         <div className="email-container">
                             <span className="pr-1"><FiMail className="icon-size-adjust"/></span>
@@ -69,9 +70,9 @@ class Main extends React.Component {
 
 
                     <footer className="footer-section social_contacts">
-                        <a className="social-icon" title="Github" href="https://github.com/nluong1021" target="_blank"><FaGithub size="1.2em"/></a>
+                        <a className="social-icon" title="Github" href="https://github.com/sluong910" target="_blank"><FaGithub size="1.2em"/></a>
                         <a className="social-icon" title="LinkedIn" href="https://linkedin.com/in/shayla-luong" target="_blank"><FaLinkedin size="1.2em"/></a>
-                        <a className="social-icon" title="Facebook" href="https://facebook.com/ngan.luong.58" target="_blank"><FaFacebook size="1.2em"/></a>
+                        <a className="social-icon" title="Facebook" href="https://facebook.com/" target="_blank"><FaFacebook size="1.2em"/></a>
                     </footer>
                 </nav>
 

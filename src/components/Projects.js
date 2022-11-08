@@ -4,6 +4,8 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { FaGithub } from 'react-icons/fa'
 import { FiExternalLink } from 'react-icons/fi'
 
+import img_asl_learner_game from '../assets/images/project-asl-learner-game.jpg'
+import img_dojumbo from '../assets/images/project-dojumbo.jpg'
 import img_smartbins from '../assets/images/project-smartbins.jpg'
 import img_blink from '../assets/images/project-blink.jpg'
 import img_inbetween from '../assets/images/project-inbetween.jpg'
@@ -15,6 +17,27 @@ class Projects extends React.Component {
         super();
 
         this.state = {items: [
+            {
+                image: img_asl_learner_game,
+                link: "https://sluong910.github.io/uid-asl-learning/",
+                title: "Web-based ASL Learner Game",
+                subtitle: "User Interface Design",
+                text: `Trained a Convolutional Neural Network classification model that predicts ASL letters from images. Developed a kid-friendly,
+                    interactive web-based game that encourages kids to learn the ASL alphabet by incorporating the trained
+                    model and real-time webcam feed.`,
+                github: "https://github.com/sluong910/uid-asl-learning",
+                tags: ["TensorflowJS","CNN","HTML","CSS","JavaScript"]
+            },
+            {
+                image: img_dojumbo,
+                link: "https://github.com/sluong910/Dojumbo",
+                title: "Dojumbo",
+                subtitle: "Personal Project",
+                text: `A simulation role-playing game inspired by the Karate martial art and Stardew Valley gameplay. Game is created using the Unity game engine
+                    and original pixelart artwork drawn on Asesprite. This project heavily relies on the concepts of the Model-View-Controller architecture and Observer design pattern.`,
+                github: "https://github.com/sluong910/Dojumbo",
+                tags: ["Unity","C#","Aseprite"]
+            },
             {
                 image: img_smartbins,
                 link: "http://projects.eng.uci.edu/projects/2019-2020/smart-bins",
@@ -47,7 +70,7 @@ class Projects extends React.Component {
                     our application with the hopes that students studying abroad or anyone who likes 
                     to travel can spend less time learning the language and more time soaking in the 
                     culture.`,
-                github: "https://github.com/nluong1021/SBHacks",
+                github: "https://github.com/sluong910/SBHacks",
                 tags: ["OpenCV","CSS/HTML","Python","Flask","GCP"]
             },
             {

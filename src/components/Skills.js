@@ -21,23 +21,26 @@ export default class Skills extends React.Component {
                                 <li>C/C++</li>
                                 <li>Java</li>
                                 <li>SQL</li>
+                                <li>HTML/CSS/JS</li>
                             </ul>
                         </Col>
                         
                         <Col className="skill-col">
                             <h5><IoIosApps/> Development</h5>
                             <ul>
-                                <li>HTML/CSS</li>
-                                <li>Javascript</li>
-                                <li>React/Django/Flask</li>
+                                <li>.NET</li>
+                                <li>Spring Boot</li>
+                                <li>React</li>
+                                <li>Django</li>
                                 <li>Android Studio</li>
                                 <li>C#/Unity</li>
                             </ul>
                         </Col>
                         
                         <Col className="skill-col">
-                            <h5><FaCodeBranch/> ML/AI</h5>
+                            <h5><FaCodeBranch/> ML/DM</h5>
                             <ul>
+                                <li>Mahout</li>
                                 <li>OpenCV</li>
                                 <li>PyTorch</li>
                                 <li>Tensorflow</li>
@@ -48,6 +51,7 @@ export default class Skills extends React.Component {
                         <Col className="skill-col">
                             <h5><AiOutlineCode/> Other</h5>
                             <ul>
+                                <li>Hadoop</li>
                                 <li>Git</li>
                                 <li>Linux</li>
                                 <li>AWS/CGP</li>
