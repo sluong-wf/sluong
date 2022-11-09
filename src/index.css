@@ -8,6 +8,8 @@
   --main-darker:#007889;
   --dark-gray:#535353;
   --light-gray:rgb(240, 240, 240);
+  --default-padding: 3rem;
+  --tight-padding: 1rem;
 }
 
 body {
@@ -164,8 +166,8 @@ code {
 }
 
 .about-section {
-  padding: 3rem;
   max-width: 65rem !important;
+  padding: var(--default-padding);
 }
 
 .button {
@@ -198,9 +200,9 @@ code {
 
 .content-section-container {
   background-color: white;
-  padding: 3rem;
   margin: 1.5rem;
   max-width: 65rem !important;
+  padding: var(--default-padding);
   border: solid 1px rgb(224, 224, 224);
 }
 
@@ -427,5 +429,21 @@ code {
   }
   .content {
     margin-left: 0;
+  }
+  .about-section {
+    padding: var(--default-padding) var(--tight-padding);
+  }
+  .content-section-container {
+    padding: var(--default-padding) var(--tight-padding);
+    margin: var(--tight-padding);
+  }
+  .experience-container .col-2 {
+    display: none;
+  }
+  .experience-item::before {
+    content: none;
+  }
+  .experience-item::after {
+    content: none;
   }
 }
