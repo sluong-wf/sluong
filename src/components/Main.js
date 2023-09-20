@@ -70,7 +70,7 @@ class Main extends React.Component {
 
 
                     <footer className="footer-section social_contacts">
-                        <a className="social-icon" title="Github" href="https://github.com/sluong910" target="_blank"><FaGithub size="1.2em"/></a>
+                        <a className="social-icon" title="Github" href="https://github.com/sluong-wf" target="_blank"><FaGithub size="1.2em"/></a>
                         <a className="social-icon" title="LinkedIn" href="https://linkedin.com/in/shayla-luong" target="_blank"><FaLinkedin size="1.2em"/></a>
                         <a className="social-icon" title="Facebook" href="https://facebook.com/" target="_blank"><FaFacebook size="1.2em"/></a>
                     </footer>
