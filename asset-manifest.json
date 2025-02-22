@@ -1,35 +1,25 @@
 {
   "files": {
-    "main.css": "/sluong/static/css/main.99611993.chunk.css",
-    "main.js": "/sluong/static/js/main.00fc4d2a.chunk.js",
-    "main.js.map": "/sluong/static/js/main.00fc4d2a.chunk.js.map",
-    "runtime-main.js": "/sluong/static/js/runtime-main.f99ec774.js",
-    "runtime-main.js.map": "/sluong/static/js/runtime-main.f99ec774.js.map",
-    "static/css/2.829c9cb5.chunk.css": "/sluong/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.cf4e26b6.chunk.js": "/sluong/static/js/2.cf4e26b6.chunk.js",
-    "static/js/2.cf4e26b6.chunk.js.map": "/sluong/static/js/2.cf4e26b6.chunk.js.map",
+    "main.css": "/sluong/static/css/main.f0e5e8ab.css",
+    "main.js": "/sluong/static/js/main.f69bb123.js",
+    "static/media/project-inbetween.jpg": "/sluong/static/media/project-inbetween.ff4588011d14ee995550.jpg",
+    "static/media/project-dare.jpg": "/sluong/static/media/project-dare.9d44d4a33211e7646d11.jpg",
+    "static/media/mood-journal.png": "/sluong/static/media/mood-journal.4e6a6f6a844916aaf064.png",
+    "static/media/profile_pic.jpg": "/sluong/static/media/profile_pic.a2d2479739f3a8a4d7fb.jpg",
+    "static/media/chef-bot.png": "/sluong/static/media/chef-bot.62a56e4a38f99f0c89d1.png",
+    "static/media/resume.png": "/sluong/static/media/resume.52c29f4a2ff7a00fff64.png",
+    "static/media/sluong-resume.pdf": "/sluong/static/media/sluong-resume.15bb632a943b5226f125.pdf",
+    "static/media/project-smartbins.jpg": "/sluong/static/media/project-smartbins.53de5a2c6ce4482fb030.jpg",
+    "static/media/project-chickinfinite.jpg": "/sluong/static/media/project-chickinfinite.1ee9388fb85e8c256a24.jpg",
+    "static/media/project-blink.jpg": "/sluong/static/media/project-blink.88a958be7af58e7c91f5.jpg",
+    "static/media/project-dojumbo.jpg": "/sluong/static/media/project-dojumbo.1222f6eaf564802c0f5e.jpg",
+    "static/media/project-asl-learner-game.jpg": "/sluong/static/media/project-asl-learner-game.1303da87fadd446d1a96.jpg",
     "index.html": "/sluong/index.html",
-    "precache-manifest.28cc6b86dfec6e479c8051c00c42cb2a.js": "/sluong/precache-manifest.28cc6b86dfec6e479c8051c00c42cb2a.js",
-    "service-worker.js": "/sluong/service-worker.js",
-    "static/css/2.829c9cb5.chunk.css.map": "/sluong/static/css/2.829c9cb5.chunk.css.map",
-    "static/css/main.99611993.chunk.css.map": "/sluong/static/css/main.99611993.chunk.css.map",
-    "static/js/2.cf4e26b6.chunk.js.LICENSE.txt": "/sluong/static/js/2.cf4e26b6.chunk.js.LICENSE.txt",
-    "static/media/profile_pic.jpg": "/sluong/static/media/profile_pic.d3470470.jpg",
-    "static/media/project-asl-learner-game.jpg": "/sluong/static/media/project-asl-learner-game.bcf4cff1.jpg",
-    "static/media/project-blink.jpg": "/sluong/static/media/project-blink.c0459bde.jpg",
-    "static/media/project-chickinfinite.jpg": "/sluong/static/media/project-chickinfinite.4b00d47f.jpg",
-    "static/media/project-dare.jpg": "/sluong/static/media/project-dare.4ea96ad0.jpg",
-    "static/media/project-dojumbo.jpg": "/sluong/static/media/project-dojumbo.31d3cae4.jpg",
-    "static/media/project-inbetween.jpg": "/sluong/static/media/project-inbetween.25d76538.jpg",
-    "static/media/project-smartbins.jpg": "/sluong/static/media/project-smartbins.f6977ce8.jpg",
-    "static/media/resume.png": "/sluong/static/media/resume.4dd07af2.png",
-    "static/media/sluong-resume.pdf": "/sluong/static/media/sluong-resume.83c99879.pdf"
+    "main.f0e5e8ab.css.map": "/sluong/static/css/main.f0e5e8ab.css.map",
+    "main.f69bb123.js.map": "/sluong/static/js/main.f69bb123.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f99ec774.js",
-    "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.cf4e26b6.chunk.js",
-    "static/css/main.99611993.chunk.css",
-    "static/js/main.00fc4d2a.chunk.js"
+    "static/css/main.f0e5e8ab.css",
+    "static/js/main.f69bb123.js"
   ]
 }
