@@ -4,6 +4,8 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { FaGithub } from 'react-icons/fa'
 import { FiExternalLink } from 'react-icons/fi'
 
+import img_mood_jornal from '../assets/images/mood-journal.png'
+import img_chef_bot from '../assets/images/chef-bot.png'
 import img_asl_learner_game from '../assets/images/project-asl-learner-game.jpg'
 import img_dojumbo from '../assets/images/project-dojumbo.jpg'
 import img_smartbins from '../assets/images/project-smartbins.jpg'
@@ -18,24 +20,46 @@ class Projects extends React.Component {
 
         this.state = {items: [
             {
+                image: img_mood_jornal,
+                link: "https://github.com/sluong-wf/moodjournal-ui",
+                title: "Mood Journal - Moodee",
+                subtitle: "Personal Project",
+                text: `MoodJournal is a web application that helps users track their daily moods, journal their thoughts, and visualize emotional trends. 
+                Using the power of GPT LLM, MoodJournal analyzes journal entries to generate personalized mood insights and suggest mood colors, making 
+                emotional tracking intuitive and meaningful.`,
+                github: "https://github.com/sluong-wf/moodjournal-ui",
+                tags: ["OpenAI API","Material UI","HTML","CSS","JavaScript","Flask","Python","JWT"]
+            },
+            {
+                image: img_chef_bot,
+                link: "https://sluong-wf.github.io/chefbot-ui/",
+                title: "ChefBot",
+                subtitle: "Personal Project",
+                text: `Trained a Convolutional Neural Network classification model that predicts ASL letters from images. Developed a kid-friendly,
+                    interactive web-based game that encourages kids to learn the ASL alphabet by incorporating the trained
+                    model and real-time webcam feed.`,
+                github: "https://github.com/sluong-wf/chefbot-ui",
+                tags: ["OpenAI API","Flask","Python","HTML","CSS","JavaScript"]
+            },
+            {
                 image: img_asl_learner_game,
-                link: "https://sluong910.github.io/uid-asl-learning/",
+                link: "https://sluong-wf.github.io/uid-asl-learning/",
                 title: "Web-based ASL Learner Game",
                 subtitle: "User Interface Design",
                 text: `Trained a Convolutional Neural Network classification model that predicts ASL letters from images. Developed a kid-friendly,
                     interactive web-based game that encourages kids to learn the ASL alphabet by incorporating the trained
                     model and real-time webcam feed.`,
-                github: "https://github.com/sluong910/uid-asl-learning",
+                github: "https://github.com/sluong-wf/uid-asl-learning",
                 tags: ["TensorflowJS","CNN","HTML","CSS","JavaScript"]
             },
             {
                 image: img_dojumbo,
-                link: "https://github.com/sluong910/Dojumbo",
+                link: "https://github.com/sluong-wf/Dojumbo",
                 title: "Dojumbo",
                 subtitle: "Personal Project",
                 text: `A simulation role-playing game inspired by the Karate martial art and Stardew Valley gameplay. Game is created using the Unity game engine
                     and original pixelart artwork drawn on Asesprite. This project heavily relies on the concepts of the Model-View-Controller architecture and Observer design pattern.`,
-                github: "https://github.com/sluong910/Dojumbo",
+                github: "https://github.com/sluong-wf/Dojumbo",
                 tags: ["Unity","C#","Aseprite"]
             },
             {
@@ -70,7 +94,7 @@ class Projects extends React.Component {
                     our application with the hopes that students studying abroad or anyone who likes 
                     to travel can spend less time learning the language and more time soaking in the 
                     culture.`,
-                github: "https://github.com/sluong910/SBHacks",
+                github: "https://github.com/sluong-wf/SBHacks",
                 tags: ["OpenCV","CSS/HTML","Python","Flask","GCP"]
             },
             {

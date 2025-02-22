@@ -38,6 +38,7 @@ code {
   font-family: 'Oswald', sans-serif;
   font-size: x-large;
   color: white;
+  text-align: center;
   /* transition-duration: 0.4s; */
 }
 
@@ -145,20 +146,20 @@ code {
 }
 
 .main-section {
-  max-width: 65rem !important;
+  max-width: 60rem !important;
 }
 
 .main-section h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .main-section h3 {
   color: var(--dark-gray);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .main-section p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: normal;
   background-color: lightgray;
   padding: 1rem 1.5rem;
@@ -166,8 +167,8 @@ code {
 }
 
 .about-section {
-  max-width: 65rem !important;
-  padding: var(--default-padding);
+  max-width: 63rem !important;
+  padding: 1.5rem;
 }
 
 .button {
@@ -201,7 +202,7 @@ code {
 .content-section-container {
   background-color: white;
   margin: 1.5rem;
-  max-width: 65rem !important;
+  max-width: 60rem !important;
   padding: var(--default-padding);
   border: solid 1px rgb(224, 224, 224);
 }
@@ -213,7 +214,7 @@ code {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* EDUCATION SECTION */
@@ -231,6 +232,7 @@ code {
 .education-item-details {
   min-width: 14rem !important;
   font-weight: lighter;
+  font-size: 0.9rem;
 }
 
 .course-list {
@@ -247,14 +249,15 @@ code {
 
 /* SKILLS SECTION */
 .skill-col {
-  margin: 0.5rem 1rem;
+  margin: 0.5rem 0.5rem;
   padding: 1.5rem 0.5rem;
   text-align: center;
   border: solid 1px darkgray;
   border-radius: 1rem;
-  min-width: 12rem !important;
-  max-width: 14rem !important;
+  min-width: 10rem !important;
+  max-width: 12rem !important;
   transition: border 0.3s ease;
+  font-size: 0.9rem;
 }
 
 .skill-col:hover {
@@ -386,8 +389,20 @@ code {
   border: 4px solid var(--main-color);
 }
 
+.experience-item ul {
+  margin-bottom: 0;
+}
+
 .experience-container h5 {
   color: #0b6b88;
+}
+
+h5 {
+  font-size: 1.15em !important;
+}
+
+h4 {
+  font-size: 1.3em !important;
 }
 
 .experience-container b {

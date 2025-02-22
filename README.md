@@ -1,4 +1,4 @@
 # sluong
 Personal Website with React
 
-Live here: https://sluong910.github.io/sluong/ (WIP)
+Live here: [My Page](https://sluong-wf.github.io/sluong/)

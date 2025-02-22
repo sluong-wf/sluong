@@ -10,11 +10,11 @@ class Education extends React.Component {
                     <Row className="pt-3 education-item">
                         <Col className="education-item-main">
                             <h4>San Jose State University</h4>
-                            <b>August 2021 - May 2023 (Expected)</b> <br/>
+                            <b>August 2021 - May 2023</b> <br/>
                         </Col>
                         <Col className="education-item-details">
-                            <b style={{fontWeight:"bold", fontSize:"1.3rem"}}>Computer Science, M.S.</b> <br/>
-                            <b>GPA: 3.71</b> <br/>
+                            <b style={{fontWeight:"bold", fontSize:"1.2rem"}}>Computer Science, M.S.</b> <br/>
+                            <b>GPA: 3.55</b> <br/>
                             <b>Relevant Courses:</b>
                             <div className="row">
                                 <div className="col course-list">
@@ -43,7 +43,7 @@ class Education extends React.Component {
                             <p>Graduated Cum Laude</p>
                         </Col>
                         <Col className="education-item-details">
-                            <b style={{fontWeight:"bold", fontSize:"1.3rem"}}>Computer Science and Engineering, B.S.</b> <br/>
+                            <b style={{fontWeight:"bold", fontSize:"1.2rem"}}>Computer Science and Engineering, B.S.</b> <br/>
                             <b>GPA: 3.78</b> <br/>
                             <b>Relevant Courses:</b>
                             <div className="row">
@@ -74,7 +74,7 @@ class Education extends React.Component {
                             <b>Spring 2019</b>
                         </Col>
                         <Col className="education-item-details">
-                            <b style={{fontWeight:"bold", fontSize:"1.3rem"}}>UC Education Abroad Program</b> <br/>
+                            <b style={{fontWeight:"bold", fontSize:"1.2rem"}}>UC Education Abroad Program</b> <br/>
                             <b>Lab Research: High-speed projection mapping on dynamical surfaces using systems and algorithms optimized for vision processing.</b>
                         </Col>
                     </Row>
