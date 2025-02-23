@@ -35,9 +35,8 @@ class Projects extends React.Component {
                 link: "https://sluong-wf.github.io/chefbot-ui/",
                 title: "ChefBot",
                 subtitle: "Personal Project",
-                text: `Trained a Convolutional Neural Network classification model that predicts ASL letters from images. Developed a kid-friendly,
-                    interactive web-based game that encourages kids to learn the ASL alphabet by incorporating the trained
-                    model and real-time webcam feed.`,
+                text: `ChefBot is an AI-powered recipe generator that leverages OpenAI's language models to create personalized recipes based on user input. 
+                It combines modern web technologies to deliver an interactive and engaging cooking assistant.`,
                 github: "https://github.com/sluong-wf/chefbot-ui",
                 tags: ["OpenAI API","Flask","Python","HTML","CSS","JavaScript"]
             },

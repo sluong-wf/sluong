@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 
 const IntroSection = ({ name, title, info }) => {
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(true);
 
     const shortBlurb = "Hi there! I'm a Software Engineer with a passion for building projects and solving complex problems. I hold a Master's and Bachelor's degree in Computer Science and have 4 years of industry experience.";
     
