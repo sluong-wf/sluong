@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sluong/static/css/main.f0e5e8ab.css",
-    "main.js": "/sluong/static/js/main.f69bb123.js",
+    "main.js": "/sluong/static/js/main.c1e33320.js",
     "static/media/project-inbetween.jpg": "/sluong/static/media/project-inbetween.ff4588011d14ee995550.jpg",
     "static/media/project-dare.jpg": "/sluong/static/media/project-dare.9d44d4a33211e7646d11.jpg",
     "static/media/mood-journal.png": "/sluong/static/media/mood-journal.4e6a6f6a844916aaf064.png",
@@ -16,10 +16,10 @@
     "static/media/project-asl-learner-game.jpg": "/sluong/static/media/project-asl-learner-game.1303da87fadd446d1a96.jpg",
     "index.html": "/sluong/index.html",
     "main.f0e5e8ab.css.map": "/sluong/static/css/main.f0e5e8ab.css.map",
-    "main.f69bb123.js.map": "/sluong/static/js/main.f69bb123.js.map"
+    "main.c1e33320.js.map": "/sluong/static/js/main.c1e33320.js.map"
   },
   "entrypoints": [
     "static/css/main.f0e5e8ab.css",
-    "static/js/main.f69bb123.js"
+    "static/js/main.c1e33320.js"
   ]
 }
